@@ -21,6 +21,13 @@ x <- 10
 #Evaluate the slope of fx at x=10
 # eval() evaluates and expression
  eval(df_dx)
+ 
+ #set a value for x
+x <- 14.43
+
+#Evaluate the slope of fx at x=10
+# eval() evaluates and expression
+ eval(df_dx)
 
 ```
 
@@ -38,5 +45,3 @@ z <- seq(1,3,length=20) #define the variable as a sequence of values
 eval(dg_dz) #evaluate derivate for the sequence
 
 ```
-
-Testing a change in doc
